@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/index.css"/>
+</head>
+<body>
+    <!-- <div id="navbar">
+        <h3>Home</h3>
+        <div id="options">
+            <a href="/electronics.html"><h3>Electronics</h3></a>
+            <a href="/jewellery.html"><h3>Jwellery</h3></a>
+            <a href=""><h3>Sign In</h3></a>
+            <a href=""><h3>Sign Up</h3></a>
+        </div>
+    </div> -->
+    <div id="container">
+
+    </div>
+</body>
+</html>
+<script type="module">
+    import navbar from './components/navbar.js';
+    console.log(navbar);
+    let container = document.getElementById("container");
+    container.innerHTML = navbar();
+</script>
